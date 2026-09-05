@@ -35,7 +35,7 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/priyank0777/mailaccess.git
-   cd mailaccess-studio
+   cd mailaccess
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
