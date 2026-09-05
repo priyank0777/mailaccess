@@ -36,3 +36,12 @@
    ```bash
    git clone https://github.com/<YOUR_USERNAME>/mailaccess-studio.git
    cd mailaccess-studio
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+3. **Start the Dashboard:**
+   ```bash
+   python -m uvicorn app:app --reload --host 127.0.0.1 --port 8000
+4. **Open your browser at:**
+   ```bash
+   http://127.0.0.1:8000
