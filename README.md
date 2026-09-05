@@ -36,12 +36,32 @@
    ```bash
    git clone https://github.com/priyank0777/mailaccess.git
    cd mailaccess
-2. **Install dependencies:**
+   ```
+
+2. **Set up a virtual environment:**
+   ```bash
+   python3 -m venv .venv  # create the venv
+   source .venv/bin/activate  # activate it
+   # On Windows: .venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-3. **Start the Dashboard:**
+   ```
+
+4. **Start the Dashboard:**
    ```bash
    python -m uvicorn app:app --reload --host 127.0.0.1 --port 8000
-4. **Open your browser at:**
-   ```bash
-   http://127.0.0.1:8000
+   ```
+   *(Or on Windows, simply double-click `start.bat`)*
+
+5. Open your browser at **`http://127.0.0.1:8000`**.
+
+---
+
+## ⚖️ Disclaimer
+
+This tool is created strictly for authorized intelligence gathering, security auditing, digital footprint discovery, and educational research. Always ensure you have proper authorization before performing reconnaissance on external entities.
+
+Please note that this project is in its early stages and active development, so detection accuracy is not 100% yet. Platform rate-limits and privacy changes mean some accounts may be missed or need further tuning. Any feedback, bug reports, or pull requests from the community are warmly welcome!
