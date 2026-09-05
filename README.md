@@ -34,7 +34,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<YOUR_USERNAME>/mailaccess-studio.git
+   git clone https://github.com/priyank0777/mailaccess.git
    cd mailaccess-studio
 2. **Install dependencies:**
    ```bash
